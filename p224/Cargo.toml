@@ -31,7 +31,7 @@ blobby = "0.3"
 ecdsa-core = { version = "=0.17.0-pre.9", package = "ecdsa", default-features = false, features = ["dev"] }
 hex-literal = "0.4"
 primeorder = { version = "=0.14.0-pre.2", features = ["dev"], path = "../primeorder" }
-rand_core = { version = "0.6", features = ["getrandom"] }
+rand_core = { version = "0.9", features = [] }
 
 [features]
 default = ["arithmetic", "ecdsa", "pem", "std"]
